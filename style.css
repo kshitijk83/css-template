@@ -1,0 +1,151 @@
+*,html,body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    padding: 5rem 24%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+}
+
+.first {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    background-color: white;
+}
+
+.hoursof{
+    text-align: center;
+    position: relative;
+
+    /* width: 36rem; */
+
+}
+
+.first .hoursof .thirty{
+    font-size: 18vw;
+    font-weight: bold;
+    color: blue;
+}
+
+.hoursof .hours{
+    font-size: 5vw;
+    font-weight: 700;
+    text-align: left;
+}
+
+.sq1 {
+    border: 15px solid blue;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: .5rem;
+    position: absolute;
+    top: 4rem;
+    left: -10rem;
+    transform: rotate(45deg);
+}
+
+.sq2{
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    border: 1.5rem solid red;
+    padding: 1rem;
+    top: 50%;
+    left: -20rem;
+    transform: rotate(-5deg);
+}
+
+.sq3{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    border: 1rem solid rgb(240, 72, 100);
+    top: 1rem;
+    right: -2rem;
+}
+
+.sq4{
+    position: absolute;
+    top: 30%;
+    right: -10rem;
+    border: 8px solid rgb(240, 72, 100);
+    height: 3.5rem;
+    width: 3.5rem;
+    padding: .5rem;
+}
+
+.sq5{
+    width: .5rem;
+    height: .5rem;
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    border: 5px solid blue;
+    transform: rotate(45deg);
+}
+
+.circle{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -2rem;
+    right: -8rem;
+    border: 2rem solid orange;
+    filter: blur(7px);
+}
+
+.second{
+    background-color: white;
+}
+
+.line{
+    text-align: justify;
+    font-weight: bold;
+    /* letter-spacing: .3rem; */
+}
+
+.line1{
+    font-size: 2.54vw;
+}
+
+.line2{
+    font-size: 2.055vw;
+}
+
+.line3{
+    font-size: 1.7vw;
+}
+
+.line4{
+    font-size: 1.2vw;
+}
+
+.line5{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text{
+    font-size: .8vw;
+}
+
+.box{
+    width: 80%;
+    background-color: black;
+}
